@@ -1,0 +1,100 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 100%;
+}
+.announcement{
+  background-color: rgb(22, 20, 20);
+  color: white;
+  padding: 5px 0px;
+}
+.announcement__p{
+text-align: center;
+}
+.topnav--wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 38px 80px;
+}
+.topnav__rightside{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightside__right i,.rightside__left i{
+  margin-right: 15px;
+}
+.bottomnav--wrapper{
+  padding: 5px 80px;
+}
+.tabs{
+  display: flex;
+  align-items: center;
+  margin-bottom:5px ;
+}
+.tabs span{
+  padding-right: 30px;
+}
+.bottomnav__navs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.left__navs span{
+  margin-right: 30px;
+}
+.right__navs{
+  border: 1px solid grey;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right__navs span{
+padding: 10px;
+}
+.nav__search__input{
+  border: 0px;
+  outline: 0px;
+  font-size: 16px;
+
+}
+.trandingNow__wrapper{
+
+  display: flex;
+  justify-content: center;
+}
+.trandingNow__slider{
+  width: 85vw;
+}
+.slick-prev {
+  left: -20px !important ;
+  z-index: 1000;
+}
+.slick-next {
+  right: -10px !important ;
+  z-index: 1000;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  padding: 10px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  color: rgb(32, 32, 32) !important;
+  -webkit-font-smoothing: antialiased;
+}
+.slider__card{
+  
+}
+.slider__image{
+
+}
+.slider__body{
+  
+}
