@@ -26,8 +26,8 @@ const BottomNav = () => {
           <span>
             <i className="bi bi-mic"></i>
           </span>
-          <span>
-            <i className="bi bi-qr-code-scan"></i>
+          <span style={{borderLeft:'1px solid grey'}}>
+            <img  src="Camera.png" alt="" />
           </span>
         </div>
       </div>
