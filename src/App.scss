@@ -37,7 +37,7 @@ body {
 }
 
 .topnav__rightside {
-  width: 40%;
+  min-width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -343,4 +343,58 @@ footer {
 /* the slides */
 .slick-slide {
   margin-right: 40px;
+}
+
+
+// media queries for tablets
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+}
+// media queries mobile
+@media screen and (max-width: 800px) {
+  .topnav--wrapper{
+    padding: 15px;
+  }
+.left__navs,.bottomnav__navs,.topnav__rightside,.rightside__left{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: start;
+  line-height: 2;
+}
+.topnav__rightside,.rightside__left,.tabs{
+  align-items: end;
+  font-size: 12px;
+}
+.bottomnav--wrapper{
+  padding: 5px 15px;
+}
+.tranding,.recomended,.new{
+  padding: 25px 20px 20px 20px;
+}
+footer .footertop{
+  flex-wrap: wrap;
+  padding: 20px;
+  div{
+    margin-top: 20px;
+  }
+}
+.spring{
+  padding: 20px;
+}
+.spring__slide{
+  flex-wrap: wrap;
+}
+.spring__card{
+margin: 10px 0px;
+img{
+  max-height: 150px;
+}
+}
+.next--button{
+  right: -15px;
+}
+.advertisment__box--left{
+  max-width: 100%;
+}
 }
