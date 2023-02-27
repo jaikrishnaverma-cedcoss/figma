@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,8 +27,8 @@ const PauseOnHover = ({ title }: { title: string }) => {
     <div className="wrapper wrapper--slider">
       <h2 className="wrapper__h2">{title}</h2>
       <Slider {...settings}>
-        {[5, 5, 5, 55, 5, 5, 5, 5, 5, 5, 55].map((x) => (
-          <div className="slider__card">
+        {[5, 5, 5, 55, 5, 5, 5, 5, 5, 5, 55].map((x,i) => (
+          <div className="slider__card" key={x.toString()+i}>
             <img src="Image.png" className="slider__image" alt="" />
             <i className="card__like bi bi-heart"></i>
             <span className="card__discount card--trading">- 42% OFF</span>
@@ -41,8 +41,8 @@ const PauseOnHover = ({ title }: { title: string }) => {
                 <del className="price__del">121.00€</del>
               </h6>
               <span className="ratings">
-                {["", "", "", "", ""].map((x) => (
-                  <i className="bi bi-star-fill"></i>
+                {["", "", "", "", ""].map((y,j) => (
+                  <i key={i+'icon'+x.toString()+j} className="bi bi-star-fill"></i>
                 ))}{" "}
                 (45)
               </span>

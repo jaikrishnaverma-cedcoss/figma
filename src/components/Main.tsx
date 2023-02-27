@@ -62,7 +62,7 @@ const Main = () => {
         <footer>
           <div className="footertop">
             {["FOOTER1", "FOOTER2", "FOOTER3", "FOOTER4"].map((x, i) => (
-              <div>
+              <div key={x.toString() + i}>
                 <h5>{x}</h5>
                 <p>Item</p>
                 <p>Item</p>

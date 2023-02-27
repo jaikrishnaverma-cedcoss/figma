@@ -22,12 +22,16 @@ const BottomNav = () => {
           <span>
             <i className="bi bi-search"></i>
           </span>
-          <input type="text" placeholder="Search products,articles..." className="nav__search__input" />
+          <input
+            type="text"
+            placeholder="Search products,articles..."
+            className="nav__search__input"
+          />
           <span>
             <i className="bi bi-mic"></i>
           </span>
-          <span style={{borderLeft:'1px solid grey'}}>
-            <img  src="Camera.png" alt="" />
+          <span style={{ borderLeft: "1px solid grey" }}>
+            <img src="Camera.png" alt="" />
           </span>
         </div>
       </div>

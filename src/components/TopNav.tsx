@@ -6,8 +6,8 @@ const TopNav = () => {
       <img src="Logo-lockup.png" alt="" className="logo" />
       <div className="topnav__rightside">
         <div className="rightside__left">
-          <i className="bi bi-headset">{" "}Support</i>
-          <i className="bi bi-geo-alt">{" "}Find a store</i>
+          <i className="bi bi-headset"> Support</i>
+          <i className="bi bi-geo-alt"> Find a store</i>
         </div>
         <div className="rightside__right">
           <i className="bi bi-heart"></i>
